@@ -11,7 +11,7 @@ class TestListMethods(unittest.TestCase):
     def test_roman_tkalenko_2(self):
         self.assertEqual(2, 2)
     def test_michael_medved_fi93(self):
-        self.assertEqual([] + [f], [f])
+        self.assertEqual(len([] + ['f']), len('f'))
 
-if __name__ == '__main__':
+if __name__ == '__main__': 
     unittest.main()
